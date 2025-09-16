@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+#animateBox {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    margin-top: 20px;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+}
+
+/* Keyframe animation */
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-50px); }
+    100% { transform: translateY(0); }
+}
